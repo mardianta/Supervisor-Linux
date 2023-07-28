@@ -23,8 +23,8 @@
         
   - command: Isi dengan perintah yang sesuai untuk menjalankan queue:work. Anda dapat menambahkan opsi-opsi seperti --sleep, --tries, dan --daemon sesuai kebutuhan.
         user: Ganti dengan nama pengguna (username) di server yang memiliki hak akses untuk menjalankan perintah di atas.
-    - numprocs: Tentukan berapa banyak worker yang ingin Anda jalankan secara paralel. Anda dapat menyesuaikan jumlahnya sesuai dengan kapasitas server Anda. Biasanya, jumlah worker sebaiknya disetel sesuai dengan jumlah CPU yang ada pada server.
-        - stdout_logfile: Tentukan lokasi file log untuk menyimpan keluaran (output) dari worker.
+  - numprocs: Tentukan berapa banyak worker yang ingin Anda jalankan secara paralel. Anda dapat menyesuaikan jumlahnya sesuai dengan kapasitas server Anda. Biasanya, jumlah worker sebaiknya disetel sesuai dengan jumlah CPU yang ada pada server.
+  - stdout_logfile: Tentukan lokasi file log untuk menyimpan keluaran (output) dari worker.
 
 - Muat Ulang Supervisor:
   Setelah Anda menyimpan konfigurasi Supervisor, muat ulang konfigurasi dengan menjalankan perintah:
