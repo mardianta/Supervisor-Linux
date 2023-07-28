@@ -3,7 +3,7 @@ Berikut adalah beberapa perintah yang bisa digunakan pada sudo supervisorctl unt
 
 - Memulai Supervisor: 
     
-    sudo service supervisor start
+        sudo service supervisor start
 
 - Menghentikan Supervisor:
     
