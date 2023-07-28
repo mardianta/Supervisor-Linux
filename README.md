@@ -51,7 +51,7 @@ Berikut adalah beberapa perintah yang bisa digunakan pada sudo supervisorctl unt
 
         sudo supervisorctl restart all
   
-Memeriksa log dari proses tertentu:
+- Memeriksa log dari proses tertentu:
 
         sudo supervisorctl tail -f <nama_program>
     Gantilah <nama_program> dengan nama program yang diawasi oleh Supervisor.
