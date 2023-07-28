@@ -1,7 +1,7 @@
 # Supervisor-Linux
 Supervisor adalah sebuah sistem pemantauan dan pengendalian proses pada lingkungan UNIX yang sering digunakan untuk mengawasi dan menjalankan proses-proses pada sistem. Supervisor memungkinkan Anda untuk mengelola dan menjalankan proses-proses seperti worker, job queue, atau aplikasi lainnya secara terus menerus (persistent) dan dengan lebih aman.
 
-Dalam konteks sebelumnya, Supervisor digunakan untuk mengawasi dan menjalankan job queue worker pada Laravel. Dengan menggunakan Supervisor, Anda dapat memastikan bahwa job queue worker terus berjalan dan siap menerima dan menjalankan job-job yang masuk ke dalam antrian.
+Supervisor dapat digunakan untuk mengawasi dan menjalankan job queue worker pada Laravel. Dengan menggunakan Supervisor, Anda dapat memastikan bahwa job queue worker terus berjalan dan siap menerima dan menjalankan job-job yang masuk ke dalam antrian.
 
 Supervisor bekerja dengan cara melakukan polling secara berkala untuk memantau status proses-proses yang diatur dalam konfigurasi. Jika ada proses yang berhenti atau gagal, Supervisor akan mencoba untuk memulai ulang proses tersebut agar tetap berjalan sesuai dengan konfigurasi yang telah ditentukan.
 
