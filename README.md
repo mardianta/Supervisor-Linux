@@ -4,7 +4,7 @@
 
         sudo apt-get install supervisor
 
-- Setelah Supervisor terinstal, buatlah file konfigurasi baru untuk menjalankan queue:work. Biasanya, konfigurasi Supervisor disimpan di direktori /etc/supervisor/conf.d/.
+  Setelah Supervisor terinstal, buatlah file konfigurasi baru untuk menjalankan queue:work. Biasanya, konfigurasi Supervisor disimpan di direktori /etc/supervisor/conf.d/.
 - Buatlah file baru dengan ekstensi .conf, misalnya laravel-worker.conf:
 
         sudo nano /etc/supervisor/conf.d/laravel-worker.conf
