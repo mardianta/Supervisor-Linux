@@ -1,4 +1,23 @@
 # Supervisor-Linux
+Supervisor adalah sebuah sistem pemantauan dan pengendalian proses pada lingkungan UNIX yang sering digunakan untuk mengawasi dan menjalankan proses-proses pada sistem. Supervisor memungkinkan Anda untuk mengelola dan menjalankan proses-proses seperti worker, job queue, atau aplikasi lainnya secara terus menerus (persistent) dan dengan lebih aman.
+
+Dalam konteks sebelumnya, Supervisor digunakan untuk mengawasi dan menjalankan job queue worker pada Laravel. Dengan menggunakan Supervisor, Anda dapat memastikan bahwa job queue worker terus berjalan dan siap menerima dan menjalankan job-job yang masuk ke dalam antrian.
+
+Supervisor bekerja dengan cara melakukan polling secara berkala untuk memantau status proses-proses yang diatur dalam konfigurasi. Jika ada proses yang berhenti atau gagal, Supervisor akan mencoba untuk memulai ulang proses tersebut agar tetap berjalan sesuai dengan konfigurasi yang telah ditentukan.
+
+Berikut adalah beberapa keuntungan menggunakan Supervisor:
+
+1. *Mengelola Proses*: Supervisor dapat mengelola dan menjalankan proses secara otomatis, memastikan proses-proses tersebut tetap berjalan dan selalu aktif.
+
+2. *Restart Otomatis*: Jika proses mengalami kegagalan atau berhenti bekerja, Supervisor akan mencoba untuk memulai ulang proses tersebut, sehingga dapat menghindari downtime yang tidak diinginkan.
+
+3. *Logging*: Supervisor menyediakan fasilitas untuk melacak log aktivitas dari proses-proses yang diawasi.
+
+4. *Monitoring*: Supervisor memungkinkan Anda untuk memantau status proses secara real-time melalui command line, sehingga memudahkan untuk memeriksa kinerja aplikasi.
+
+5. *Konfigurasi Mudah*: Anda dapat mengatur konfigurasi Supervisor dengan mudah melalui file konfigurasi, yang memungkinkan Anda untuk mengatur banyak proses yang berbeda sesuai kebutuhan.
+
+Supervisor memungkinkan Anda untuk mengelola dan menjalankan proses-proses yang kritis dalam lingkungan produksi dengan lebih baik, memberikan stabilitas dan kehandalan pada aplikasi Anda.
 
 - Install Supervisor
 
