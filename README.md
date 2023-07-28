@@ -21,9 +21,9 @@
         redirect_stderr=true
         stdout_logfile=/path/to/your/laravel/storage/logs/worker.log
         
-        - command: Isi dengan perintah yang sesuai untuk menjalankan queue:work. Anda dapat menambahkan opsi-opsi seperti --sleep, --tries, dan --daemon sesuai kebutuhan.
+  - command: Isi dengan perintah yang sesuai untuk menjalankan queue:work. Anda dapat menambahkan opsi-opsi seperti --sleep, --tries, dan --daemon sesuai kebutuhan.
         user: Ganti dengan nama pengguna (username) di server yang memiliki hak akses untuk menjalankan perintah di atas.
-        - numprocs: Tentukan berapa banyak worker yang ingin Anda jalankan secara paralel. Anda dapat menyesuaikan jumlahnya sesuai dengan kapasitas server Anda. Biasanya, jumlah worker sebaiknya disetel sesuai dengan jumlah CPU yang ada pada server.
+    - numprocs: Tentukan berapa banyak worker yang ingin Anda jalankan secara paralel. Anda dapat menyesuaikan jumlahnya sesuai dengan kapasitas server Anda. Biasanya, jumlah worker sebaiknya disetel sesuai dengan jumlah CPU yang ada pada server.
         - stdout_logfile: Tentukan lokasi file log untuk menyimpan keluaran (output) dari worker.
 
 - Muat Ulang Supervisor:
